@@ -1,0 +1,167 @@
+body {
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0c003f;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+/* */ 
+  body{
+  background: #0c003f;
+  min-height:100vh;
+  display:block;
+  justify-content:top;
+  align-items:top;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+button{
+  border:none;
+  border-radius:10px;
+  padding: 1px 20px;
+  font-size:18px;
+  cursor:pointer;
+}
+
+button:hover{
+  background-color:#9b7d7d;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color:#fff;
+  border-radius:5px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+
+.dropdown-options a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+  padding:20px 40px;
+}
+
+.dropdown-options a:hover {
+  color: #0a0a23;
+  background-color: #6052a0;
+  border-radius:5px;
+}  
+/* */ 
+
+nav {
+    background-color: rgb(16, 31, 104);
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nombre-hover {
+    cursor: pointer;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    list-style-type: none;
+    padding: 10px;
+}
+
+.submenu li {
+    margin: 5px 0;
+}
+
+.nombre-hover:hover + .submenu {
+    display: block;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 1em;
+}
+
+#inicio {
+    background-color: #ffc400;
+    color: #333;
+    text-align: center;
+    padding: 2em;
+}
+
+#menu {
+    background-color: #eee;
+    padding: 2em;
+}
+
+#contacto {
+    background-color: #fff;
+    color: #333;
+    padding: 2em;
+}
+
+footer {
+  background-color: #0c003f;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer p {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+
+/*   */
+
+/*   */

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="shortcut icon" href="C:\Users\Dante\Desktop\Examen Quevedo\4d6433a30ab15d7a6481f0f9010da65b.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Don Camerino</title>
+    <link rel="stylesheet" href="CSS Contactos.css">
+</head>
+<body>
+    <header>
+        <h1>Hamburguesas Don Camerino</h1>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Menu.html">Menú</a></li>
+                <li><a href="Contactos.html">Contacto</a></li>
+                <li> <a href="Nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="informacion-contacto">
+            <div class="direccion">
+                <h3>Dirección</h3>
+                <p>Calle Principal P.Luche #456</p>
+                <p>Culiacan, México</p>
+            </div>
+
+            <div class="telefono">
+                <h3>Teléfono</h3>
+                <p>6671234567</p>
+            </div>
+
+            <div class="email">
+                <h3>Email</h3>
+                <p><a href="mailto:don_camerino@hotmail.com">don_camerino@burguer.com</a></p>
+            </div>
+        </div>
+
+        <div class="formulario-contacto">
+            <h3>Envíanos un mensaje</h3>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id "apellido" name="apellido" required>
+                
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <h2><p>Hamburguesas Don Camerino</p></h2>
+            <p> Examen Dante Emmanuel Diaz Zamora G3-3 </p>
+    </footer>
+</body>
+</html>
